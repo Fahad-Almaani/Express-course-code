@@ -1,0 +1,10 @@
+GET http://localhost:8000/get-user/
+####
+POST http://localhost:8000/new-user/
+content-type: application/json
+
+{
+ "username":"user1","password":"user123", "email":"user1@gmail.com","age":20
+}
+####
+DELETE http://localhost:8000/delete-user/658c22cde21771c1ce271413
