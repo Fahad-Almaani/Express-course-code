@@ -44,8 +44,8 @@ server.post("/new-user", (req, res) => {
 });
 
 // DELETE
-server.delete("/delete-user/:id", (req, res) => {
-  let user_id = req.params.id;
+server.delete("/delete-user/", (req, res) => {
+  let user_id = req.body.id;
   UserModel.findByIdAndDelete(user_id)
     .then((response) => {
       console.log("user Deleted");
@@ -57,5 +57,5 @@ server.delete("/delete-user/:id", (req, res) => {
     });
 });
 
-// server start listening 
+// server start listening
 server.listen(8000, () => console.log("server is running..."));
