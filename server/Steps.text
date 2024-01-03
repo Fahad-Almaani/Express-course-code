@@ -1,0 +1,38 @@
+Express | back-end
+
+1 - Setup
+    > npm init -y
+
+2 - libraries installation
+    > npm i express mongoose cors nodemon.
+    
+3 - pre-configuration : type module , nodemon index.js
+
+4 - import libraries
+
+5 - mongoose and cors connection
+
+6 - Server Setup
+
+7 - request 
+    GET:
+        - get all users retrieve users
+        - get user by id
+    POST:
+        - register new user 
+    DELETE:
+        - delete user by id or by username
+
+
+Commands you need:
+npm init -y
+npm i express mongoose cors nodemon
+node index.js
+
+
+
+// shipment id , to , from
+1- schema
+3 - add new 
+2 - get all shipments
+4 - delete one

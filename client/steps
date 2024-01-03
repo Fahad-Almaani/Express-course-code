@@ -1,0 +1,23 @@
+1 - create new app
+2 - install [ react-router-dom , bootstrap, axios]
+3 - components 
+4 - navbar
+5 - router 
+7 - hooks [useState, useEffect]
+6 - axios opr with form
+
+
+commands you need:
+npx create-react-app
+npm i react-router-dom bootstrap axios
+npm start
+
+#extensions you can use [optional] 
+ex: es7 , bs5 snippet
+es7:
+    rfc : new components
+
+
+# import bootstrap css
+import bootstrap:
+import "bootstrap/dist/css/bootstrap.css";
