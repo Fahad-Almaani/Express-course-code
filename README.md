@@ -1,6 +1,6 @@
 # React js and Express with MongoDB 
 
-## files that used in the coures for explanition to {Create , Read , Update , Delete} CRUD using React and Express
+## files that used in the coures for explanation to {Create , Read , Update , Delete} CRUD using React and Express
 
 
 
